@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateModelPhonesTable extends Migration
+class CreateModelRolesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,11 @@ class CreateModelPhonesTable extends Migration
      */
     public function up()
     {
-        Schema::create('telefonos', function (Blueprint $table) {
-          $table->bigInteger('id_persona');
-          $table->string('telefono',10);
-          $table->primary('id_persona');
-          $table->rememberToken();
-          $table->timestamps();
+        Schema::create('rol', function (Blueprint $table) {
+            $table->increments('id_rol');
+            $table->string('nombre',40);
+            $table->rememberToken();
+            $table->timestamps();
         });
     }
 
@@ -29,6 +28,6 @@ class CreateModelPhonesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('telefonos');
+        Schema::dropIfExists('rol');
     }
 }
