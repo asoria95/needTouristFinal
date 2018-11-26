@@ -18,7 +18,7 @@ class CreateModelServiceTuristsTable extends Migration
           $table->bigInteger('id_turista');
           $table->bigInteger('id_observacion');
           $table->primary(['id_servicio', 'id_turista','id_observacion']);
-          $table->rememberToken();
+          //$table->rememberToken();
           $table->timestamps();
         });
     }

@@ -17,7 +17,7 @@ class CreateModelPersonRolesTable extends Migration
             $table->bigInteger('id_persona');
             $table->bigInteger('id_rol');
             $table->primary(['id_persona', 'id_rol']);
-            $table->rememberToken();
+            //$table->rememberToken();
             $table->timestamps();
         });
     }

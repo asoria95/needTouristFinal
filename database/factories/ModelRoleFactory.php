@@ -2,7 +2,7 @@
 
 use Faker\Generator as Faker;
 
-$factory->define(App\ModelRole::class, function (Faker $faker) {
+$factory->define(App\Models\Personas\ModelRole::class, function (Faker $faker) {
     return [
         //
     ];

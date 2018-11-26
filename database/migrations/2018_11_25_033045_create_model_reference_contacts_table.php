@@ -18,7 +18,7 @@ class CreateModelReferenceContactsTable extends Migration
             $table->string('nombre',70);
             $table->string('telefono',10);
             $table->primary('id_afiliado');
-            $table->rememberToken();
+            //$table->rememberToken();
             $table->timestamps();
         });
     }

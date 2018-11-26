@@ -20,7 +20,7 @@ class CreateModelPersonsTable extends Migration
         $table->string('email',100)->unique();
         $table->string('password');
         //$table->primary('id_persona');
-        $table->rememberToken();
+        //$table->rememberToken();
         $table->timestamps();
     });
     }

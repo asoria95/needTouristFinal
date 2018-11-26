@@ -19,7 +19,7 @@ class CreateModelTuristsTable extends Migration
         $table->string('residencia');
         $table->primary('id_turista');
         //$table->foreign('id_turista')->references('id_persona')->on('personas');
-        $table->rememberToken();
+        //$table->rememberToken();
         $table->timestamps();
       });
     }

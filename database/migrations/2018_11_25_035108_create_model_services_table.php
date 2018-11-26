@@ -18,7 +18,7 @@ class CreateModelServicesTable extends Migration
             $table->bigInteger('id_afiliado');
             $table->bigInteger('id_paquete');
             $table->date('fecha');
-            $table->rememberToken();
+            //$table->rememberToken();
             $table->timestamps();
         });
     }

@@ -19,7 +19,7 @@ class CreateModelDealsTable extends Migration
             $table->text('direccion');
             $table->string('telefono',10);
             $table->string('email',70);
-            $table->rememberToken();
+            //$table->rememberToken();
             $table->timestamps();
         });
     }

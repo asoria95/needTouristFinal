@@ -20,7 +20,7 @@ class CreateModelAfilliatesTable extends Migration
         $table->string('curriculum',100);
         $table->primary('id_afiliado');
         //$table->foreign('id_afiliado')->references('id_persona')->on('personas');
-        $table->rememberToken();
+        //$table->rememberToken();
         $table->timestamps();
 
       });

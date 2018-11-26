@@ -2,7 +2,7 @@
 
 use Faker\Generator as Faker;
 
-$factory->define(App\ModelQualification::class, function (Faker $faker) {
+$factory->define(App\Models\Servicio\ModelQualification::class, function (Faker $faker) {
     return [
         //
     ];

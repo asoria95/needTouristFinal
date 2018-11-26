@@ -18,7 +18,7 @@ class CreateModelTouristPackagesTable extends Migration
             $table->text('descripcion');
             $table->string('itinerario',70);
             $table->decimal('price', 6, 2);
-            $table->rememberToken();
+            //$table->rememberToken();
             $table->timestamps();
         });
     }

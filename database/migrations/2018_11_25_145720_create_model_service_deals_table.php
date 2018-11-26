@@ -17,7 +17,7 @@ class CreateModelServiceDealsTable extends Migration
             $table->bigInteger('id_servicio');
             $table->bigInteger('id_negocio');
             $table->primary(['id_servicio', 'id_negocio']);
-            $table->rememberToken();
+            //$table->rememberToken();
             $table->timestamps();
         });
     }

@@ -18,11 +18,11 @@ class CreateModelAdministratorsTable extends Migration
         $table->string('cargo');
         $table->primary('id_administrador');
         //$table->foreign('id_administrador')->references('id_persona')->on('personas');
-        $table->rememberToken();
+        //$table->rememberToken();
         $table->timestamps();
         //$table->primary('id')
       });
-  
+
     }
 
     /**

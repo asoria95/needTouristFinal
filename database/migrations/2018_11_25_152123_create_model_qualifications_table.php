@@ -17,7 +17,7 @@ class CreateModelQualificationsTable extends Migration
           $table->increments('id_observacion');
           $table->bigInteger('calificacion_afiliado');
           $table->text('comentarios');
-          $table->rememberToken();
+          //$table->rememberToken();
           $table->timestamps();
         });
     }

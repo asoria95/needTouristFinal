@@ -2,7 +2,7 @@
 
 use Faker\Generator as Faker;
 
-$factory->define(App\ModelPhones::class, function (Faker $faker) {
+$factory->define(App\Models\Personas\ModelPhones::class, function (Faker $faker) {
     return [
         //
     ];

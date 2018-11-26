@@ -17,7 +17,7 @@ class CreateModelPhonesTable extends Migration
           $table->bigInteger('id_persona');
           $table->string('telefono',10);
           $table->primary('id_persona');
-          $table->rememberToken();
+          //$table->rememberToken();
           $table->timestamps();
         });
     }

@@ -17,7 +17,7 @@ class CreateModelQualificationDealsTable extends Migration
             $table->bigInteger('id_observacion');
             $table->bigInteger('calificacion');
             $table->primary('id_observacion');
-            $table->rememberToken();
+            //$table->rememberToken();
             $table->timestamps();
         });
     }
